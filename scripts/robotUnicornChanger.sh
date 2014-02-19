@@ -9,7 +9,3 @@ cd ~/Desktop
 curl -o youshouldlockyourcomputer.png http://i.imgur.com/h5uCDt8.jpg
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Desktop/youshouldlockyourcomputer.png"; }; }'
 killall Dock
-cd ~
-curl -Lso .robotUnicornAlias http://bit.ly/robotunicornalias
-source .robotUnicornAlias
-source .bash_profile
